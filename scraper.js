@@ -11,4 +11,4 @@ puppeteer
   .then(html => {
     console.log($(selector, html).html())
   })
-  .catch(err => console.log(err));
+  .catch(err => err);
